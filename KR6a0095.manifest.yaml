@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR6a0095/v1
+canonical_location: https://kanripo.org/bkk/KR6a0095/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 蟻喻經
+  identifiers:
+    alt_id:
+    - T01n0095
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T01/T01n0095.xml
+    old_id: T01n0095
+  edition:
+    short: bkk
+editions:
+- short: 明
+  label: 明
+  source_xml_id: wit1
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6a0095_000.yaml, hash: 'sha256:74491aeb4788ac5f4837e0ecbd3061cbec46d75a354b96bef9eddb61e5c1b95e'}
+  - {seq: 1, filename: KR6a0095_001.yaml, hash: 'sha256:0c76da34b721ba66ee3c273e7bc1ca2b26a92e4d60e1069a066efcc54d27dd73'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6a0095_001.markers.yaml, hash: 'sha256:a98f754c962c3aed8bad503edfc38bbd470ef6951548fe851d32f01c9f42b1e9'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6a0095_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 857
+  label: 佛說蟻喻經
+  type: juan
+  level: 1
+hash: sha256:94d5386049897bbef0dfc74cf6ef08db301495c929f33510bac291fb51fa8143
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
